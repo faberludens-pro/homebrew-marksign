@@ -7,6 +7,8 @@ cask "marksign" do
   desc "Convert documents to Markdown, locally"
   homepage "https://faberludens-pro.github.io/marksign/"
 
+  disable_quarantine true
+
   app "MarkSign.app"
 
   zap trash: [
