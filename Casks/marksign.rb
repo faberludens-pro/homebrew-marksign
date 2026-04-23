@@ -11,6 +11,12 @@ cask "marksign" do
 
   app "MarkSign.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/MarkSign.app"],
+                   sudo: false
+  end
+
   zap trash: [
     "~/.marksign",
   ]
