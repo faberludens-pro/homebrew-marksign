@@ -1,6 +1,6 @@
 cask "marksign" do
-  version "0.1.1"
-  sha256 "1a48da139fc8f766c8541d42cf51009a829c20116ac345c5f27e5618d8da4a0e"
+  version "0.1.2"
+  sha256 "ee0f7f6acbf5ec3edad887bd0663d40024fc3426fcc2353663d9e0734df607cb"
 
   url "https://github.com/faberludens-pro/marksign/releases/download/v#{version}/MarkSign-#{version}.dmg"
   name "MarkSign"
